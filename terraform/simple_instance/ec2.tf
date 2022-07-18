@@ -19,7 +19,7 @@ resource "aws_security_group" "ssh_traffic" {
     git_last_modified_by = "32462260+porec@users.noreply.github.com"
     git_modifiers        = "32462260+porec"
     git_org              = "porec"
-    git_repo             = "terragoat"
+    git_repo             = "filevine"
     yor_trace            = "4146a382-99fa-4777-b31b-f638bfc3a319"
   }
 }
@@ -36,7 +36,7 @@ resource "aws_instance" "web_server_instance" {
     git_last_modified_by = "32462260+porec@users.noreply.github.com"
     git_modifiers        = "32462260+porec"
     git_org              = "porec"
-    git_repo             = "terragoat"
+    git_repo             = "filevine"
     yor_trace            = "5ed5e9ce-6ec5-4ab0-a3c0-6adc5f89997d"
   }
 }
