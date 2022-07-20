@@ -39,6 +39,7 @@ resource "aws_instance" "web_server_instance" {
     git_repo             = "filevine"
     yor_trace            = "dba6a3e5-494c-4d12-99e2-33d350c960fc"
   }
+  ebs_optimized = true
 }
 
 data "aws_ami" "ubuntu" {
